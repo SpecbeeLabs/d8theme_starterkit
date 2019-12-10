@@ -1,0 +1,14 @@
+name: THEME_STARTERKIT
+type: theme
+description: 'Drupal 8 Starterkit theme. [Replace the description to fit the project]'
+package: Custom
+core: 8.x
+libraries:
+  - STARTERKIT/global-styling
+
+regions:
+  header: Header
+  content: Content
+  footer: 'Footer'
+
+base theme: classy

@@ -1,0 +1,26 @@
+{
+  "name": "starterkit",
+  "version": "1.0.0",
+  "description": "A Drupal 8 Starterkit theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build:css": "gulp build-sass",
+    "build:eslint": "gulp eslint",
+    "build:watch": "gulp watch"
+  },
+  "author": "Malabya",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylelint": "^10.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "stylelint": "^12.0.0"
+  }
+}

@@ -1,0 +1,40 @@
+extends: "/usr/lib/node_modules/stylelint-config-standard"
+plugins:
+- "/usr/lib/node_modules/stylelint-no-browser-hacks/lib"
+rules:
+  at-rule-empty-line-before:
+  block-no-empty:
+  color-hex-case:
+  color-hex-length:
+  comment-empty-line-before:
+  declaration-block-no-duplicate-properties:
+  declaration-block-no-redundant-longhand-properties:
+  declaration-block-no-shorthand-property-overrides:
+  declaration-block-trailing-semicolon:
+  declaration-colon-space-after:
+  function-comma-space-after:
+  function-linear-gradient-no-nonstandard-direction:
+  function-name-case:
+  function-whitespace-after:
+  length-zero-no-unit:
+  no-empty-source:
+  no-unknown-animations: true
+  number-leading-zero:
+  number-no-trailing-zeros:
+  property-no-unknown:
+  rule-empty-line-before:
+  selector-pseudo-element-colon-notation:
+  selector-type-no-unknown:
+  shorthand-property-no-redundant-values:
+  unit-whitelist:
+    - deg
+    - em
+    - ex
+    - ms
+    - rem
+    - "%"
+    - s
+    - px
+ignoreFiles:
+  - vendor/**/*.scss
+  - assets/
